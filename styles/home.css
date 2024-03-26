@@ -1,3 +1,63 @@
-body{
+body {
     font-family: "Work Sans", sans-serif;
+}
+
+.btn-primary {
+    background: #FF900E;
+    border-radius: 8px;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Header Style */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 5px 240px;
+}
+
+.nav-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+/* Banner Styles */
+
+
+.banner-content{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-des{
+    color: #727272;
+}
+.banner-title{
+    font-size: 4rem;
+}
+.banner-img{
+    margin-top: 1.5rem;
+    max-width: 100%;
 }
